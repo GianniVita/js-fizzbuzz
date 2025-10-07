@@ -24,7 +24,13 @@ che parte da 1 fino e uguale a 100 con incremento ++
 
 - Poi dobbiamo capire quando un numero è multiplo di 3 o di 5
     - ci serve il modulo operatore % che ci dice se un numero è divisibile pienamente per i numeri che sappiamo dalla traccia cioè 3 e 5.
+    - Quindi SE l'operazione con i % 3 == 0 il numero sarà un multiplo di 3
+        - E SE l'ho è dovrà stampare "Fizz"
+    - Invece SE l'operazione con i % 5 == 0 il numero sarà un multiplo di 5
+        - E anche qui SE l'ho è dovrà stampare "Buzz"
 
+- Poi dobbiamo  capire se ci sono dei numeri che siano multipli di entrambi(3 e 5)
+    - E se ci sono dobbiamo stampare sempre con console.log() la parola intera FizzBuzz
 */
 
  
