@@ -17,12 +17,13 @@ Abbiamo visto qualcosa di particolare che possiamo usare?
 */
 
 /*
-Ragioniamo sull'esercizio
+Ragioniamo sull'esercizio:
 - Dobbiamo stampare i numeri da 1 a 100
     - ci serve un ciclo che abbiamo usato oggi (for)
 che parte da 1 fino e uguale a 100 con incremento ++
 
-- Poi dobbiamo capire
+- Poi dobbiamo capire quando un numero è multiplo di 3 o di 5
+    - ci serve il modulo operatore % che ci dice se un numero è divisibile pienamente per i numeri che sappiamo dalla traccia cioè 3 e 5.
 
 */
 
