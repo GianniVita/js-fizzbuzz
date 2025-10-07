@@ -35,7 +35,11 @@ che parte da 1 fino e uguale a 100 con incremento ++
 
 // Dichiariamo i numeri
 for (let i = 1; i <= 100; i++) {
-    console.log(i);
+// Poniamo la condizione per multiplo di 3   
+    if (i % 3 === 0) {
+        console.log(`Fizz ${i}`);
+        
+    }
 }
 
 
