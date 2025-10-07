@@ -41,5 +41,10 @@ for (let i = 1; i <= 100; i++) {
         
     }
 }
-
+// Poniamo la condizione per multiplo di 5
+    if (i % 5 === 0) {
+        console.log(`Buzz ${i}`);
+        
+        
+    }
 
