@@ -33,6 +33,9 @@ che parte da 1 fino e uguale a 100 con incremento ++
     - E se ci sono dobbiamo stampare sempre con console.log() la parola intera FizzBuzz
 */
 
- 
+// Dichiariamo i numeri
+for (let i = 1; i <= 100; i++) {
+    console.log(i);
+}
 
 
