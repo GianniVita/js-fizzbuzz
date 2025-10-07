@@ -35,16 +35,27 @@ che parte da 1 fino e uguale a 100 con incremento ++
 
 // Dichiariamo i numeri
 for (let i = 1; i <= 100; i++) {
-// Poniamo la condizione per multiplo di 3   
+    // Poniamo la condizione per multiplo di 3   
     if (i % 3 === 0) {
-        console.log(`Fizz ${i}`);
+        console.log(`Fizz`);
+
+    }
+    // Poniamo la condizione per multiplo di 5
+    else if (i % 5 === 0) {
+        console.log(`Buzz`);
+    }
+    //Poniamo la condizione per divisibilità sia di 3 che 5
+    else if(i % 3 === 0 && i % 5 === 0){
+        console.log(`FizzBuzz`);
+
+    }
+    // Se non divisibile per i numeri indicati stampa il numero
+    else {
+        console.log(i);
         
     }
+
+
 }
-// Poniamo la condizione per multiplo di 5
-    if (i % 5 === 0) {
-        console.log(`Buzz ${i}`);
-        
-        
-    }
+
 
